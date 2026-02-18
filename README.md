@@ -6,6 +6,12 @@ This repository hosts the legal documents for the ASD-123 mobile application.
 
 The legal documents are published at: https://INTRACTABILIS7.github.io/asd123-v4-legal/
 
+### Publicly Accessible URLs
+
+- **Home**: https://INTRACTABILIS7.github.io/asd123-v4-legal/
+- **Privacy Policy**: https://INTRACTABILIS7.github.io/asd123-v4-legal/privacy.html
+- **Terms of Service**: https://INTRACTABILIS7.github.io/asd123-v4-legal/terms.html
+
 ## Contents
 
 - **index.html** - Home page with links to legal documents
@@ -50,7 +56,13 @@ ASD-123 is an educational mobile application designed to support speech and lang
 
 ## Deployment
 
-This site is automatically deployed via GitHub Pages from the main branch.
+This site is automatically deployed to GitHub Pages via GitHub Actions from the main branch.
+
+The deployment workflow:
+1. Triggers automatically on pushes to the `main` branch
+2. Can also be triggered manually via workflow_dispatch
+3. Uploads all HTML files as GitHub Pages artifacts
+4. Deploys to https://INTRACTABILIS7.github.io/asd123-v4-legal/
 
 To view locally:
 1. Clone the repository
